@@ -1,0 +1,108 @@
+* {
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+    border: 10px solid #6f73d2;
+    padding: 2%;
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: #d9f0ff;
+    font-size: 4vw;
+    text-align: center;
+}
+.contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: "Lucida Grande";
+  font-size: 8vw;
+  color: #6f73d2;
+}
+
+
+.logo {
+    float: left;
+    width: 10%;
+    height: 60%;
+  }
+
+.foto-cabecera{
+    border-radius: 10%;  
+    align-items: center;
+    width: :5%%;
+    height: 30%;
+}
+.barra-nav {
+   list-style: none;
+   display: flex;
+   gap: 5px;
+   margin-right: 3vw;
+}
+a {
+ text-decoration: none;
+ color:#6f73d2;
+ font-family: Verdana, sans-serif;
+ font-size: medium;
+}
+ul {
+     list-style-type: none ;
+     flex-direction: column;
+     font-family: Verdana, sans-serif;
+     font-style: italic;
+     color: #595758;
+   }
+.principal{
+  background-color: #a3d5ff;
+  color:#595758;
+  
+}
+.titulo-fotos{
+  font-family: Verdana, sans-serif ;
+  font-size: 8vw;
+  color: #6f73d2
+}
+.flex-conteiner{
+  border: 2px solid #6f73d2;
+
+}
+.fotos{
+  display: flex;
+  border:2px solid ;
+  width: 3vw;
+
+  font-size: 3vw;
+  text-align: center;
+}
+footer{
+  background-color: #d9f0ff;
+  padding: 10vw;
+}
+.form-titulo{
+  text-align: center;
+}
+.formulario{
+  width: 27%;
+  padding: 2vw 2vw 2vw 2vw;
+  align-items: center;
+  background-color: #a3d5ff;
+  border-radius: 5%;
+  border-style: solid;
+  border-color:#6f73d2;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#6f73d2
+   }
+   .boton-enviar{
+     text-align: center;
+     font-style: normal;
+     background-color: #6f73d2;
+     padding: 8px;
+     border:2px solid #a3d5ff;
+     color:#d9f0ff
+   }
