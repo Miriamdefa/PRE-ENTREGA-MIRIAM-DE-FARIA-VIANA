@@ -1,4 +1,9 @@
-Pre entrega 
+Pre entrega Miriam de Faria Viana
+Algunas cosas no quedaron como quería, es mi primera vez haciendo front-end.
+Espero mejorar para el trabajo final.
+Gracias!!!
+
+
 Fecha de Entrega: 
 •	Crear un proyecto del tipo sitio web funcional con su estructura (carpetas pages, css, js, media) en VSC.
 
